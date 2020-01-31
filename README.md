@@ -244,14 +244,6 @@ We also setup Prettier (https://prettier.io/) on git pre-commit hook to automati
 
 * Regression unit test is created.
 
-### Pipeline & Continuous integration / delivery / deployment
-
-We use TravisCI for continuous integration tool. In the pipeline we run a few basic checks, we check if the unit tests coverage did not decrease and we rebuild the application to verify if the new code does not break up the build.
-
-You may find the whole history: https://travis-ci.org/DivanteLtd/shopware-pwa
-
-Test eCommerce Page will be automatically deployed to following environment...
-
 ### Test coverage
 
 In early stages of the development, we decided to keep 99% percent of unit tests code coverage. That means you will not be suprised by changed behaviour of the methods in your storefront product. If you break it, you will be notified by the tests.
